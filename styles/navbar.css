@@ -4,7 +4,7 @@
     right: 0;
 
     z-index: 100;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.6);
     color: white;
     height: 50px;
     font-size: 28px;
@@ -37,6 +37,7 @@
 
 .nav-link:visited{
     color: white;
+    text-decoration: none;
 }
 
 .nav-link:link{
