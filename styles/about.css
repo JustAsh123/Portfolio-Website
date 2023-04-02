@@ -14,8 +14,8 @@
 .image-cont{
     background-color: lightblue;
     height: 40vh;
+    width: 30vw;
     float: left;
-    width: 40vw;
 }
 
 .text-cont{
@@ -28,7 +28,7 @@
     .image-cont{
         float: none;
         height: 40vh;
-        width: 70vh;
+        width: auto;
         margin: auto;
     }
 }
