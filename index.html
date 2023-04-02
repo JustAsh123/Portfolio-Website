@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta id="vp" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/about.css">
     <title>Ash Develops - Portfolio</title>
 </head>
-<body style="min-width: 515px;">
+<body>
     <header class="navbar">
         <div class="logo"><span style="color: deeppink;">A</span>shmit <span style="color: deeppink;">D</span>evs</div>
         <div class="nav-but-container">
@@ -40,5 +40,14 @@
             test wala text</div>
         </div>
     </section>
+
+    <script>
+        window.onload = function() {
+            if (screen.width < 515) {
+                var mvp = document.getElementById('vp');
+                mvp.setAttribute('content','user-scalable=no,width=515');
+            }
+        }
+    </script>
 </body>
 </html>
