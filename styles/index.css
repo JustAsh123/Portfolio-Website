@@ -1,6 +1,6 @@
 .bgimage{
     height: 100vh;
-    background-image: url('https://static-cse.canva.com/blob/983370/Thepowerofheroimagedesignfeaturedimage.ebe725ab.avif');
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/12/20/37/abstract-5035778_960_720.jpg');
     background-color: grey;
     background-blend-mode: multiply;
     background-size:cover;
@@ -17,10 +17,10 @@
     margin: 0;
 }
 .hero-text {
-    text-align: left;
+    text-align: center;
     position: absolute;
-    top: 34%;
-    left: 34%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }

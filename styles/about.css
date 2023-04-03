@@ -1,13 +1,14 @@
 .about{
     height: 100vh;
     padding-top: 50px;
-    background-color: rgb(219, 195, 164);
+    background-color:rgb(39, 39, 39);
 }
 
 .heading{
     margin: 0;
     font-size: 4.5rem;
     text-align: center;
+    color: white;
 }
 
 
@@ -25,29 +26,30 @@
     height: 100%;
     object-position: top;
     border-style: solid;
-    border-width: 2px;
-    border-color: black;
+    border-width: 3px;
+    border-color: deeppink;
 }
 
 .text-cont{
     font-size: 24px;
     margin: 18px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+}
+
+p{
+    margin: 0;
+    text-align: center; 
+    color: white;
 }
 
 .left-text{
-    background-color: lightgreen;
-    margin-left: 8px;
-}
-
-.right-text{
-    background-color: lightcoral;
     margin-left: 8px;
 }
 
 
 @media (max-width:750px){
+    .about{
+        height: 120vh;
+    }
     .image-cont{
         float: none;
         height: 60vh;
@@ -59,7 +61,7 @@
         object-position: center;
     }
     .about{
-        height: 100vh;
+        height: 120vh;
     }
     .text-cont{
         display: block;
