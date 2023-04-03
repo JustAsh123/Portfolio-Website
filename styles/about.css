@@ -1,7 +1,7 @@
 .about{
-    height: 80vh;
     padding-top: 50px;
     background-color:rgb(39, 39, 39);
+    margin-bottom: 40px;
 }
 
 .heading{
@@ -47,9 +47,7 @@ p{
 
 
 @media (max-width:750px){
-    .about{
-        height: 60vh;
-    }
+
     .image-cont{
         float: none;
         height: 60vh;
