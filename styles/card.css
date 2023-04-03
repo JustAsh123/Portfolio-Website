@@ -13,7 +13,6 @@ body{
     width: 250px;
     border-style: solid;
     border-width: 2px;
-    margin-left: 12px;
     border-color: deeppink;
     box-shadow: 8px 8px 8px rgba(255, 20, 145, 0.472);
     background-color: rgb(231, 231, 231);
@@ -28,12 +27,6 @@ body{
     object-fit: cover;
     object-position: top;  
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);  
-}
-
-@media (max-width:750px){
-    .my-projects{
-        margin-top: 20px;
-    }
 }
 
 .card-title{
@@ -76,4 +69,37 @@ body{
     opacity: 0.7;
     cursor: pointer;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.581);
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    row-gap: 8px;
+    column-gap: 8px;
+    margin-top:24px;
+}
+
+
+@media (max-width:750px){
+    .my-projects{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:1085px){
+    .cards-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:850px){
+    .cards-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:600px){
+    .cards-container{
+        grid-template-columns: 1fr;
+    }
 }
