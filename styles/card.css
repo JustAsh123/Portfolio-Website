@@ -4,37 +4,76 @@ body{
 
 .my-projects{
     background-color:rgb(39, 39, 39);
-    margin-top: 30vh;
+    padding-top: 10px;
+    height: 100vh;
 }
 
 .card{
-    height: 300px;
+    height: 320px;
     width: 250px;
-    background-color: lightblue;
-    border-radius: 8%;
     border-style: solid;
     border-width: 2px;
     margin-left: 12px;
+    border-color: deeppink;
+    box-shadow: 8px 8px 8px rgba(255, 20, 145, 0.472);
+    background-color: rgb(231, 231, 231);
 }
 .card-img-container{
     height: 50%;
     width: 100%;
-    border-radius: 8%;
-    border-bottom-left-radius:0;
-    border-bottom-right-radius:0;
 }
 .img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
-    border-radius:12%;
-    border-bottom-left-radius:0;
-    border-bottom-right-radius:0;
+    object-position: top;  
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);  
 }
 
 @media (max-width:750px){
     .my-projects{
         margin-top: 20px;
     }
+}
+
+.card-title{
+    margin: 0;
+    margin-top: 4px;
+    color: black;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-features{
+    margin: 0;
+    margin-top: 2px;
+    font-size: 15px;
+    color: rgb(93, 93, 93);
+    margin-bottom: 2px;
+}
+
+.button-cont{
+    position: relative;
+    height: 45px;
+}
+
+.visit{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 36px;
+    background-color: rgb(43, 160, 232);
+    border-width: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 24px;
+    transition: opacity 0.3s, box-shadow 0.3s;
+}
+
+.visit:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.581);
 }
