@@ -52,7 +52,7 @@
 }
 
 
-@media (max-width:750px){
+@media (max-width:983px){
     .image-with-text{
         grid-template-columns: 1fr;
 
